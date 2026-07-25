@@ -47,16 +47,12 @@ class PriorityQueue:
         n=len(self.heap)
         while True:
             smallest=ind
-            #
             right=2*ind+2
             left=2*ind+1
             if left<n and self.heap[left]<self.heap[smallest]:
-                #
                 smallest=left
             if right<n and self.heap[right]<self.heap[smallest]:
-                #
                 smallest=right
-
             if smallest !=ind:
                 id_a=self.heap[ind][1]
                 id_b=self.heap[smallest][1]
@@ -78,15 +74,7 @@ class PriorityQueue:
         self._init_up(ind)
 
     
-    """
-    with insert we add new value to end and with _init_up we make sort correct, that child must be greater than parent. and it that like that swap their 
-    position
-    with extract min we check len of heap write test cases,then we get 0 index because we have access to top 0 index value, remove and then make correct
-    sort them with _sift_down. _sift_down get smallest =index and left/right indexs, then chech indexs and values of that indexs. if left<n 
-    left index < whole heap size and lefts item < heap smallest item left becomes smallest and same for right. and when smallest != ind they switch postions
-    i dont think this suit our task, because we write it on graps and when i descrieb pos_map hashmap i must use it in decrease_key and i think i must use it in other methods too.
-    
-    """
+
 
 """
 5 method 
@@ -97,5 +85,3 @@ decrease_key missing value
 decrease_key bad new value
 """
 
-
-#and create test py for test herre def test_decrease_key

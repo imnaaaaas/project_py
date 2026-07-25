@@ -58,14 +58,14 @@ def test_decrease_key_missing_elemet(): #fail visible or do undefiened 6
     with pytest.raises(KeyError):
         pq.decrease_key("nonexistent", 1)  
 
-def test_decrease_key_larger_value_ignored(): #equal/larger value
+def test_decrease_key_larger_value_ignored(): #equal/larger value 7
     pq = PriorityQueue()
     pq.insert(5, "A")
     pq.decrease_key("A",10)
     assert pq.extract_min() == [5,"A"]
 
 
-def test_strees_again_heapq():
+def test_strees_again_heapq(): #  8
     random.seed(42)
     items =[]
     for i in range(50):
