@@ -28,7 +28,7 @@ class PriorityQueue:
 
     def extract_min(self): #es kargad gaviaro
         if not self.heap:
-            return None
+            return None #test 2
         if len(self.heap)==1:
             item = self.heap.pop()#item is id
             del self.pos_map[item[1]] #del no longer exists
@@ -66,9 +66,10 @@ class PriorityQueue:
                 ind=smallest
             else:
                 break
+            
     def decrease_key(self,stop_id,new_val):#use hashmap
         if stop_id not in self.pos_map:
-            raise KeyError(f"{stop_id} not found")
+            raise KeyError(f"{stop_id} not found") #test 6
         ind=self.pos_map[stop_id]
         current_val=self.heap[ind][0]
         if new_val >= current_val:
@@ -87,7 +88,14 @@ class PriorityQueue:
     
     """
 
-
+"""
+5 method 
+insert
+extrac_min
+decrease_key working
+decrease_key missing value
+decrease_key bad new value
+"""
 
 
 #and create test py for test herre def test_decrease_key
