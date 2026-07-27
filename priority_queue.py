@@ -13,7 +13,6 @@ class PriorityQueue:
 
 
     def _init_up(self,ind):#for minheap parent<son and swap
-        
         while ind>0:
             parent_ind=(ind-1)//2
             id_a = self.heap[ind][1]#chils id [priority, id]
@@ -26,7 +25,7 @@ class PriorityQueue:
             else:
                 break
 
-    def extract_min(self): #es kargad gaviaro
+    def extract_min(self):
         if not self.heap:
             return None #test 2
         if len(self.heap)==1:
@@ -80,7 +79,7 @@ class PriorityQueue:
 5 method 
 insert
 extrac_min
-decrease_key working
+decrease_key working with cheaper value
 decrease_key missing value
 decrease_key bad new value
 """

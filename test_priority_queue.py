@@ -1,5 +1,5 @@
 
-"""test PriorityQueue module"""
+"""test PriorityQueue  module"""
 import pytest
 import random
 import heapq
@@ -58,7 +58,7 @@ def test_decrease_key_missing_elemet(): #fail visible or do undefiened 6
     with pytest.raises(KeyError):
         pq.decrease_key("nonexistent", 1)  
 
-def test_decrease_key_larger_value_ignored(): #equal/larger value 7
+def test_decrease_key_larger_value_ignored(): #equal/larger value 7 bad value
     pq = PriorityQueue()
     pq.insert(5, "A")
     pq.decrease_key("A",10)

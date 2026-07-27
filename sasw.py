@@ -1,7 +1,7 @@
 """#dijiskstra algorithm
 import heapq
 class Solution:
-    def shortestPath(self,n,edges,src): 
+    def shortestPath(self,n,edges,start): 
 #n how many spot, src where we start, edges=[[start,stop,weight]]
         adj={}
         for i in range(n):
@@ -32,11 +32,48 @@ s=Solution()
 
 print(s.shortestPath(5,[[0,1,10],[0,2,3],[1,3,2],[2,1,4],[2,3,8],[2,4,2],[3,4,5]], 0))
   
+
+
+!!!!!!!!!!!!!
+
+es kargad gaviaro, magalitebze
+kitxvebi meore kompiuteridan gadmovitano
         
 """
 
-""" this code gives us accesss to root element. and if its in deep it takes
-O(N) """
+import heapq
+class Solution:
+    def shortestPath(self,n,edges,src):
+        adj={}
+        for i in range(n):
+            adj[i]=[]
+
+        for s,d, weight in edges:
+            adj[s].append([d,weight])
+
+        shortest={}
+        minHeap=[[0,src]]
+        while minHeap:
+            w1,n1 = heapq.heappop(minHeap)
+            if n1 in shortest:
+                continue
+            shortest[n1]=w1
+
+            for n2,w2 in adj[n1]:
+                if n2 not in shortest:
+                    heapq.heappush(minHeap,[w1+w2,n2])
+        for i in range(n):
+            if i not in shortest:
+                shortest[i]=-1
+        return shortest
+
+s=Solution()
+
+
+print(s.shortestPath(5,[[0,1,10],[0,2,3],[1,3,2],[2,1,4],[2,3,8],[2,4,2],[3,4,5]], 0))
+  
+
+"""
 import heapq
 import random
  
@@ -108,7 +145,7 @@ def test_min_heap():
     print("✅ All 1,000 extractions matched standard heapq!")
 if __name__ == "__main__":
     test_min_heap()
-
+"""
 
 """ with decrease_key
 class MinHeap:
@@ -148,6 +185,55 @@ class MinHeap:
                 ind=parent_ind
             else:
                 break
+                
+
+
+----
+
+
+    def __init__(self,graph):
+        self.graph=graph
+
+    def shortestpath(self,start,end): #start/destination id  
+        dist={start:0}
+        prev={} #which current node hasnt added yet
+        visited = set()
+
+
+        self.pq = PriorityQueue() #same idea as minHeap
+        self.pq.insert(0,start)
+
+        while  self.pq.heap:#still smth in queue 
+
+            w1,n1= self.pq.extract_min() #current unprocesed cheapest
+            if n1 in visited:
+                continue
+            visited.add(n1)
+
+            for edge in self.graph.neighbors(n1):
+                new_dist=w1+edge.travel_time # candidate to reach / cost to reach edge.to_stop
+                if edge.to_stop not in dist or new_dist<dist[edge.to_stop]: #never recorded or its cheaper
+                    dist[edge.to_stop]=new_dist #save better distance
+                    prev[edge.to_stop]=n1 #where we came from
+
+                if edge.to_stop in self.pq.pos_map: #check stop is already in queue
+                    self.pq.decrease_key(edge.to_stop,new_dist)
+                else:
+                    self.pq.insert(new_dist,edge.to_stop)
+    
+        
+        current=end
+        path=[end]
+        while current   in prev:
+            current=prev[current]
+            path.append(current)
+            path=path[::-1]
+
+        return path
+
+ 
+
+
     """
 
 

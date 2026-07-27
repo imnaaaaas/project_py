@@ -23,7 +23,7 @@
     {"from": "S1", "to": "C",  "travel_time": 3, "line_id": "red"},
     {"from": "S1", "to": "S2", "travel_time": 4, "line_id": "red"},
     {"from": "S2", "to": "S1", "travel_time": 4, "line_id": "red"},
-
+    
     {"from": "W1", "to": "W2", "travel_time": 5, "line_id": "blue"},
     {"from": "W2", "to": "W1", "travel_time": 5, "line_id": "blue"},
     {"from": "W2", "to": "C",  "travel_time": 4, "line_id": "blue"},
