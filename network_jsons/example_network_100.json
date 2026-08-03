@@ -1,0 +1,3738 @@
+{
+    "stops": [
+        {
+            "id": "S1",
+            "name": "Stop 1",
+            "lat": 40.7,
+            "lon": -74.0
+        },
+        {
+            "id": "S2",
+            "name": "Stop 2",
+            "lat": 40.7,
+            "lon": -73.99
+        },
+        {
+            "id": "S3",
+            "name": "Stop 3",
+            "lat": 40.7,
+            "lon": -73.98
+        },
+        {
+            "id": "S4",
+            "name": "Stop 4",
+            "lat": 40.7,
+            "lon": -73.97
+        },
+        {
+            "id": "S5",
+            "name": "Stop 5",
+            "lat": 40.7,
+            "lon": -73.96
+        },
+        {
+            "id": "S6",
+            "name": "Stop 6",
+            "lat": 40.7,
+            "lon": -73.95
+        },
+        {
+            "id": "S7",
+            "name": "Stop 7",
+            "lat": 40.7,
+            "lon": -73.94
+        },
+        {
+            "id": "S8",
+            "name": "Stop 8",
+            "lat": 40.7,
+            "lon": -73.93
+        },
+        {
+            "id": "S9",
+            "name": "Stop 9",
+            "lat": 40.7,
+            "lon": -73.92
+        },
+        {
+            "id": "S10",
+            "name": "Stop 10",
+            "lat": 40.7,
+            "lon": -73.91
+        },
+        {
+            "id": "S11",
+            "name": "Stop 11",
+            "lat": 40.71,
+            "lon": -74.0
+        },
+        {
+            "id": "S12",
+            "name": "Stop 12",
+            "lat": 40.71,
+            "lon": -73.99
+        },
+        {
+            "id": "S13",
+            "name": "Stop 13",
+            "lat": 40.71,
+            "lon": -73.98
+        },
+        {
+            "id": "S14",
+            "name": "Stop 14",
+            "lat": 40.71,
+            "lon": -73.97
+        },
+        {
+            "id": "S15",
+            "name": "Stop 15",
+            "lat": 40.71,
+            "lon": -73.96
+        },
+        {
+            "id": "S16",
+            "name": "Stop 16",
+            "lat": 40.71,
+            "lon": -73.95
+        },
+        {
+            "id": "S17",
+            "name": "Stop 17",
+            "lat": 40.71,
+            "lon": -73.94
+        },
+        {
+            "id": "S18",
+            "name": "Stop 18",
+            "lat": 40.71,
+            "lon": -73.93
+        },
+        {
+            "id": "S19",
+            "name": "Stop 19",
+            "lat": 40.71,
+            "lon": -73.92
+        },
+        {
+            "id": "S20",
+            "name": "Stop 20",
+            "lat": 40.71,
+            "lon": -73.91
+        },
+        {
+            "id": "S21",
+            "name": "Stop 21",
+            "lat": 40.72,
+            "lon": -74.0
+        },
+        {
+            "id": "S22",
+            "name": "Stop 22",
+            "lat": 40.72,
+            "lon": -73.99
+        },
+        {
+            "id": "S23",
+            "name": "Stop 23",
+            "lat": 40.72,
+            "lon": -73.98
+        },
+        {
+            "id": "S24",
+            "name": "Stop 24",
+            "lat": 40.72,
+            "lon": -73.97
+        },
+        {
+            "id": "S25",
+            "name": "Stop 25",
+            "lat": 40.72,
+            "lon": -73.96
+        },
+        {
+            "id": "S26",
+            "name": "Stop 26",
+            "lat": 40.72,
+            "lon": -73.95
+        },
+        {
+            "id": "S27",
+            "name": "Stop 27",
+            "lat": 40.72,
+            "lon": -73.94
+        },
+        {
+            "id": "S28",
+            "name": "Stop 28",
+            "lat": 40.72,
+            "lon": -73.93
+        },
+        {
+            "id": "S29",
+            "name": "Stop 29",
+            "lat": 40.72,
+            "lon": -73.92
+        },
+        {
+            "id": "S30",
+            "name": "Stop 30",
+            "lat": 40.72,
+            "lon": -73.91
+        },
+        {
+            "id": "S31",
+            "name": "Stop 31",
+            "lat": 40.73,
+            "lon": -74.0
+        },
+        {
+            "id": "S32",
+            "name": "Stop 32",
+            "lat": 40.73,
+            "lon": -73.99
+        },
+        {
+            "id": "S33",
+            "name": "Stop 33",
+            "lat": 40.73,
+            "lon": -73.98
+        },
+        {
+            "id": "S34",
+            "name": "Stop 34",
+            "lat": 40.73,
+            "lon": -73.97
+        },
+        {
+            "id": "S35",
+            "name": "Stop 35",
+            "lat": 40.73,
+            "lon": -73.96
+        },
+        {
+            "id": "S36",
+            "name": "Stop 36",
+            "lat": 40.73,
+            "lon": -73.95
+        },
+        {
+            "id": "S37",
+            "name": "Stop 37",
+            "lat": 40.73,
+            "lon": -73.94
+        },
+        {
+            "id": "S38",
+            "name": "Stop 38",
+            "lat": 40.73,
+            "lon": -73.93
+        },
+        {
+            "id": "S39",
+            "name": "Stop 39",
+            "lat": 40.73,
+            "lon": -73.92
+        },
+        {
+            "id": "S40",
+            "name": "Stop 40",
+            "lat": 40.73,
+            "lon": -73.91
+        },
+        {
+            "id": "S41",
+            "name": "Stop 41",
+            "lat": 40.74,
+            "lon": -74.0
+        },
+        {
+            "id": "S42",
+            "name": "Stop 42",
+            "lat": 40.74,
+            "lon": -73.99
+        },
+        {
+            "id": "S43",
+            "name": "Stop 43",
+            "lat": 40.74,
+            "lon": -73.98
+        },
+        {
+            "id": "S44",
+            "name": "Stop 44",
+            "lat": 40.74,
+            "lon": -73.97
+        },
+        {
+            "id": "S45",
+            "name": "Stop 45",
+            "lat": 40.74,
+            "lon": -73.96
+        },
+        {
+            "id": "S46",
+            "name": "Stop 46",
+            "lat": 40.74,
+            "lon": -73.95
+        },
+        {
+            "id": "S47",
+            "name": "Stop 47",
+            "lat": 40.74,
+            "lon": -73.94
+        },
+        {
+            "id": "S48",
+            "name": "Stop 48",
+            "lat": 40.74,
+            "lon": -73.93
+        },
+        {
+            "id": "S49",
+            "name": "Stop 49",
+            "lat": 40.74,
+            "lon": -73.92
+        },
+        {
+            "id": "S50",
+            "name": "Stop 50",
+            "lat": 40.74,
+            "lon": -73.91
+        },
+        {
+            "id": "S51",
+            "name": "Stop 51",
+            "lat": 40.75,
+            "lon": -74.0
+        },
+        {
+            "id": "S52",
+            "name": "Stop 52",
+            "lat": 40.75,
+            "lon": -73.99
+        },
+        {
+            "id": "S53",
+            "name": "Stop 53",
+            "lat": 40.75,
+            "lon": -73.98
+        },
+        {
+            "id": "S54",
+            "name": "Stop 54",
+            "lat": 40.75,
+            "lon": -73.97
+        },
+        {
+            "id": "S55",
+            "name": "Stop 55",
+            "lat": 40.75,
+            "lon": -73.96
+        },
+        {
+            "id": "S56",
+            "name": "Stop 56",
+            "lat": 40.75,
+            "lon": -73.95
+        },
+        {
+            "id": "S57",
+            "name": "Stop 57",
+            "lat": 40.75,
+            "lon": -73.94
+        },
+        {
+            "id": "S58",
+            "name": "Stop 58",
+            "lat": 40.75,
+            "lon": -73.93
+        },
+        {
+            "id": "S59",
+            "name": "Stop 59",
+            "lat": 40.75,
+            "lon": -73.92
+        },
+        {
+            "id": "S60",
+            "name": "Stop 60",
+            "lat": 40.75,
+            "lon": -73.91
+        },
+        {
+            "id": "S61",
+            "name": "Stop 61",
+            "lat": 40.76,
+            "lon": -74.0
+        },
+        {
+            "id": "S62",
+            "name": "Stop 62",
+            "lat": 40.76,
+            "lon": -73.99
+        },
+        {
+            "id": "S63",
+            "name": "Stop 63",
+            "lat": 40.76,
+            "lon": -73.98
+        },
+        {
+            "id": "S64",
+            "name": "Stop 64",
+            "lat": 40.76,
+            "lon": -73.97
+        },
+        {
+            "id": "S65",
+            "name": "Stop 65",
+            "lat": 40.76,
+            "lon": -73.96
+        },
+        {
+            "id": "S66",
+            "name": "Stop 66",
+            "lat": 40.76,
+            "lon": -73.95
+        },
+        {
+            "id": "S67",
+            "name": "Stop 67",
+            "lat": 40.76,
+            "lon": -73.94
+        },
+        {
+            "id": "S68",
+            "name": "Stop 68",
+            "lat": 40.76,
+            "lon": -73.93
+        },
+        {
+            "id": "S69",
+            "name": "Stop 69",
+            "lat": 40.76,
+            "lon": -73.92
+        },
+        {
+            "id": "S70",
+            "name": "Stop 70",
+            "lat": 40.76,
+            "lon": -73.91
+        },
+        {
+            "id": "S71",
+            "name": "Stop 71",
+            "lat": 40.77,
+            "lon": -74.0
+        },
+        {
+            "id": "S72",
+            "name": "Stop 72",
+            "lat": 40.77,
+            "lon": -73.99
+        },
+        {
+            "id": "S73",
+            "name": "Stop 73",
+            "lat": 40.77,
+            "lon": -73.98
+        },
+        {
+            "id": "S74",
+            "name": "Stop 74",
+            "lat": 40.77,
+            "lon": -73.97
+        },
+        {
+            "id": "S75",
+            "name": "Stop 75",
+            "lat": 40.77,
+            "lon": -73.96
+        },
+        {
+            "id": "S76",
+            "name": "Stop 76",
+            "lat": 40.77,
+            "lon": -73.95
+        },
+        {
+            "id": "S77",
+            "name": "Stop 77",
+            "lat": 40.77,
+            "lon": -73.94
+        },
+        {
+            "id": "S78",
+            "name": "Stop 78",
+            "lat": 40.77,
+            "lon": -73.93
+        },
+        {
+            "id": "S79",
+            "name": "Stop 79",
+            "lat": 40.77,
+            "lon": -73.92
+        },
+        {
+            "id": "S80",
+            "name": "Stop 80",
+            "lat": 40.77,
+            "lon": -73.91
+        },
+        {
+            "id": "S81",
+            "name": "Stop 81",
+            "lat": 40.78,
+            "lon": -74.0
+        },
+        {
+            "id": "S82",
+            "name": "Stop 82",
+            "lat": 40.78,
+            "lon": -73.99
+        },
+        {
+            "id": "S83",
+            "name": "Stop 83",
+            "lat": 40.78,
+            "lon": -73.98
+        },
+        {
+            "id": "S84",
+            "name": "Stop 84",
+            "lat": 40.78,
+            "lon": -73.97
+        },
+        {
+            "id": "S85",
+            "name": "Stop 85",
+            "lat": 40.78,
+            "lon": -73.96
+        },
+        {
+            "id": "S86",
+            "name": "Stop 86",
+            "lat": 40.78,
+            "lon": -73.95
+        },
+        {
+            "id": "S87",
+            "name": "Stop 87",
+            "lat": 40.78,
+            "lon": -73.94
+        },
+        {
+            "id": "S88",
+            "name": "Stop 88",
+            "lat": 40.78,
+            "lon": -73.93
+        },
+        {
+            "id": "S89",
+            "name": "Stop 89",
+            "lat": 40.78,
+            "lon": -73.92
+        },
+        {
+            "id": "S90",
+            "name": "Stop 90",
+            "lat": 40.78,
+            "lon": -73.91
+        },
+        {
+            "id": "S91",
+            "name": "Stop 91",
+            "lat": 40.79,
+            "lon": -74.0
+        },
+        {
+            "id": "S92",
+            "name": "Stop 92",
+            "lat": 40.79,
+            "lon": -73.99
+        },
+        {
+            "id": "S93",
+            "name": "Stop 93",
+            "lat": 40.79,
+            "lon": -73.98
+        },
+        {
+            "id": "S94",
+            "name": "Stop 94",
+            "lat": 40.79,
+            "lon": -73.97
+        },
+        {
+            "id": "S95",
+            "name": "Stop 95",
+            "lat": 40.79,
+            "lon": -73.96
+        },
+        {
+            "id": "S96",
+            "name": "Stop 96",
+            "lat": 40.79,
+            "lon": -73.95
+        },
+        {
+            "id": "S97",
+            "name": "Stop 97",
+            "lat": 40.79,
+            "lon": -73.94
+        },
+        {
+            "id": "S98",
+            "name": "Stop 98",
+            "lat": 40.79,
+            "lon": -73.93
+        },
+        {
+            "id": "S99",
+            "name": "Stop 99",
+            "lat": 40.79,
+            "lon": -73.92
+        },
+        {
+            "id": "S100",
+            "name": "Stop 100",
+            "lat": 40.79,
+            "lon": -73.91
+        }
+    ],
+    "edges": [
+        {
+            "from": "S1",
+            "to": "S2",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S2",
+            "to": "S1",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S1",
+            "to": "S11",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S11",
+            "to": "S1",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S1",
+            "to": "S12",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S12",
+            "to": "S1",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S2",
+            "to": "S3",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S3",
+            "to": "S2",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S2",
+            "to": "S12",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S12",
+            "to": "S2",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S2",
+            "to": "S13",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S13",
+            "to": "S2",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S3",
+            "to": "S4",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S4",
+            "to": "S3",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S3",
+            "to": "S13",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S13",
+            "to": "S3",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S3",
+            "to": "S14",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S14",
+            "to": "S3",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S4",
+            "to": "S5",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S5",
+            "to": "S4",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S4",
+            "to": "S14",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S14",
+            "to": "S4",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S4",
+            "to": "S15",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S15",
+            "to": "S4",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S5",
+            "to": "S6",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S6",
+            "to": "S5",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S5",
+            "to": "S15",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S15",
+            "to": "S5",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S5",
+            "to": "S16",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S16",
+            "to": "S5",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S6",
+            "to": "S7",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S7",
+            "to": "S6",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S6",
+            "to": "S16",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S16",
+            "to": "S6",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S6",
+            "to": "S17",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S17",
+            "to": "S6",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S7",
+            "to": "S8",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S8",
+            "to": "S7",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S7",
+            "to": "S17",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S17",
+            "to": "S7",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S7",
+            "to": "S18",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S18",
+            "to": "S7",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S8",
+            "to": "S9",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S9",
+            "to": "S8",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S8",
+            "to": "S18",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S18",
+            "to": "S8",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S8",
+            "to": "S19",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S19",
+            "to": "S8",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S9",
+            "to": "S10",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S10",
+            "to": "S9",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S9",
+            "to": "S19",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S19",
+            "to": "S9",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S9",
+            "to": "S20",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S20",
+            "to": "S9",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S10",
+            "to": "S20",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S20",
+            "to": "S10",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S11",
+            "to": "S12",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S12",
+            "to": "S11",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S11",
+            "to": "S21",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S21",
+            "to": "S11",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S11",
+            "to": "S22",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S22",
+            "to": "S11",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S12",
+            "to": "S13",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S13",
+            "to": "S12",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S12",
+            "to": "S22",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S22",
+            "to": "S12",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S12",
+            "to": "S23",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S23",
+            "to": "S12",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S13",
+            "to": "S14",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S14",
+            "to": "S13",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S13",
+            "to": "S23",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S23",
+            "to": "S13",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S13",
+            "to": "S24",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S24",
+            "to": "S13",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S14",
+            "to": "S15",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S15",
+            "to": "S14",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S14",
+            "to": "S24",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S24",
+            "to": "S14",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S14",
+            "to": "S25",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S25",
+            "to": "S14",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S15",
+            "to": "S16",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S16",
+            "to": "S15",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S15",
+            "to": "S25",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S25",
+            "to": "S15",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S15",
+            "to": "S26",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S26",
+            "to": "S15",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S16",
+            "to": "S17",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S17",
+            "to": "S16",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S16",
+            "to": "S26",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S26",
+            "to": "S16",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S16",
+            "to": "S27",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S27",
+            "to": "S16",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S17",
+            "to": "S18",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S18",
+            "to": "S17",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S17",
+            "to": "S27",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S27",
+            "to": "S17",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S17",
+            "to": "S28",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S28",
+            "to": "S17",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S18",
+            "to": "S19",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S19",
+            "to": "S18",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S18",
+            "to": "S28",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S28",
+            "to": "S18",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S18",
+            "to": "S29",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S29",
+            "to": "S18",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S19",
+            "to": "S20",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S20",
+            "to": "S19",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S19",
+            "to": "S29",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S29",
+            "to": "S19",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S19",
+            "to": "S30",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S30",
+            "to": "S19",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S20",
+            "to": "S30",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S30",
+            "to": "S20",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S21",
+            "to": "S22",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S22",
+            "to": "S21",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S21",
+            "to": "S31",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S31",
+            "to": "S21",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S21",
+            "to": "S32",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S32",
+            "to": "S21",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S22",
+            "to": "S23",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S23",
+            "to": "S22",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S22",
+            "to": "S32",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S32",
+            "to": "S22",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S22",
+            "to": "S33",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S33",
+            "to": "S22",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S23",
+            "to": "S24",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S24",
+            "to": "S23",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S23",
+            "to": "S33",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S33",
+            "to": "S23",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S23",
+            "to": "S34",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S34",
+            "to": "S23",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S24",
+            "to": "S25",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S25",
+            "to": "S24",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S24",
+            "to": "S34",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S34",
+            "to": "S24",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S24",
+            "to": "S35",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S35",
+            "to": "S24",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S25",
+            "to": "S26",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S26",
+            "to": "S25",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S25",
+            "to": "S35",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S35",
+            "to": "S25",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S25",
+            "to": "S36",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S36",
+            "to": "S25",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S26",
+            "to": "S27",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S27",
+            "to": "S26",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S26",
+            "to": "S36",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S36",
+            "to": "S26",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S26",
+            "to": "S37",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S37",
+            "to": "S26",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S27",
+            "to": "S28",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S28",
+            "to": "S27",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S27",
+            "to": "S37",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S37",
+            "to": "S27",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S27",
+            "to": "S38",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S38",
+            "to": "S27",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S28",
+            "to": "S29",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S29",
+            "to": "S28",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S28",
+            "to": "S38",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S38",
+            "to": "S28",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S28",
+            "to": "S39",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S39",
+            "to": "S28",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S29",
+            "to": "S30",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S30",
+            "to": "S29",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S29",
+            "to": "S39",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S39",
+            "to": "S29",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S29",
+            "to": "S40",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S40",
+            "to": "S29",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S30",
+            "to": "S40",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S40",
+            "to": "S30",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S31",
+            "to": "S32",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S32",
+            "to": "S31",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S31",
+            "to": "S41",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S41",
+            "to": "S31",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S31",
+            "to": "S42",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S42",
+            "to": "S31",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S32",
+            "to": "S33",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S33",
+            "to": "S32",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S32",
+            "to": "S42",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S42",
+            "to": "S32",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S32",
+            "to": "S43",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S43",
+            "to": "S32",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S33",
+            "to": "S34",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S34",
+            "to": "S33",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S33",
+            "to": "S43",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S43",
+            "to": "S33",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S33",
+            "to": "S44",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S44",
+            "to": "S33",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S34",
+            "to": "S35",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S35",
+            "to": "S34",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S34",
+            "to": "S44",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S44",
+            "to": "S34",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S34",
+            "to": "S45",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S45",
+            "to": "S34",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S35",
+            "to": "S36",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S36",
+            "to": "S35",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S35",
+            "to": "S45",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S45",
+            "to": "S35",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S35",
+            "to": "S46",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S46",
+            "to": "S35",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S36",
+            "to": "S37",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S37",
+            "to": "S36",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S36",
+            "to": "S46",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S46",
+            "to": "S36",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S36",
+            "to": "S47",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S47",
+            "to": "S36",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S37",
+            "to": "S38",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S38",
+            "to": "S37",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S37",
+            "to": "S47",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S47",
+            "to": "S37",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S37",
+            "to": "S48",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S48",
+            "to": "S37",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S38",
+            "to": "S39",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S39",
+            "to": "S38",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S38",
+            "to": "S48",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S48",
+            "to": "S38",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S38",
+            "to": "S49",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S49",
+            "to": "S38",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S39",
+            "to": "S40",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S40",
+            "to": "S39",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S39",
+            "to": "S49",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S49",
+            "to": "S39",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S39",
+            "to": "S50",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S50",
+            "to": "S39",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S40",
+            "to": "S50",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S50",
+            "to": "S40",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S41",
+            "to": "S42",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S42",
+            "to": "S41",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S41",
+            "to": "S51",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S51",
+            "to": "S41",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S41",
+            "to": "S52",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S52",
+            "to": "S41",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S42",
+            "to": "S43",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S43",
+            "to": "S42",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S42",
+            "to": "S52",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S52",
+            "to": "S42",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S42",
+            "to": "S53",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S53",
+            "to": "S42",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S43",
+            "to": "S44",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S44",
+            "to": "S43",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S43",
+            "to": "S53",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S53",
+            "to": "S43",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S43",
+            "to": "S54",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S54",
+            "to": "S43",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S44",
+            "to": "S45",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S45",
+            "to": "S44",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S44",
+            "to": "S54",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S54",
+            "to": "S44",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S44",
+            "to": "S55",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S55",
+            "to": "S44",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S45",
+            "to": "S46",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S46",
+            "to": "S45",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S45",
+            "to": "S55",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S55",
+            "to": "S45",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S45",
+            "to": "S56",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S56",
+            "to": "S45",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S46",
+            "to": "S47",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S47",
+            "to": "S46",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S46",
+            "to": "S56",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S56",
+            "to": "S46",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S46",
+            "to": "S57",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S57",
+            "to": "S46",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S47",
+            "to": "S48",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S48",
+            "to": "S47",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S47",
+            "to": "S57",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S57",
+            "to": "S47",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S47",
+            "to": "S58",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S58",
+            "to": "S47",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S48",
+            "to": "S49",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S49",
+            "to": "S48",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S48",
+            "to": "S58",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S58",
+            "to": "S48",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S48",
+            "to": "S59",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S59",
+            "to": "S48",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S49",
+            "to": "S50",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S50",
+            "to": "S49",
+            "travel_time": 1.69,
+            "line_id": "red"
+        },
+        {
+            "from": "S49",
+            "to": "S59",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S59",
+            "to": "S49",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S49",
+            "to": "S60",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S60",
+            "to": "S49",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S50",
+            "to": "S60",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S60",
+            "to": "S50",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S51",
+            "to": "S52",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S52",
+            "to": "S51",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S51",
+            "to": "S61",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S61",
+            "to": "S51",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S51",
+            "to": "S62",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S62",
+            "to": "S51",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S52",
+            "to": "S53",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S53",
+            "to": "S52",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S52",
+            "to": "S62",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S62",
+            "to": "S52",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S52",
+            "to": "S63",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S63",
+            "to": "S52",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S53",
+            "to": "S54",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S54",
+            "to": "S53",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S53",
+            "to": "S63",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S63",
+            "to": "S53",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S53",
+            "to": "S64",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S64",
+            "to": "S53",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S54",
+            "to": "S55",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S55",
+            "to": "S54",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S54",
+            "to": "S64",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S64",
+            "to": "S54",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S54",
+            "to": "S65",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S65",
+            "to": "S54",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S55",
+            "to": "S56",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S56",
+            "to": "S55",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S55",
+            "to": "S65",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S65",
+            "to": "S55",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S55",
+            "to": "S66",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S66",
+            "to": "S55",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S56",
+            "to": "S57",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S57",
+            "to": "S56",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S56",
+            "to": "S66",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S66",
+            "to": "S56",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S56",
+            "to": "S67",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S67",
+            "to": "S56",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S57",
+            "to": "S58",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S58",
+            "to": "S57",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S57",
+            "to": "S67",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S67",
+            "to": "S57",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S57",
+            "to": "S68",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S68",
+            "to": "S57",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S58",
+            "to": "S59",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S59",
+            "to": "S58",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S58",
+            "to": "S68",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S68",
+            "to": "S58",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S58",
+            "to": "S69",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S69",
+            "to": "S58",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S59",
+            "to": "S60",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S60",
+            "to": "S59",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S59",
+            "to": "S69",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S69",
+            "to": "S59",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S59",
+            "to": "S70",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S70",
+            "to": "S59",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S60",
+            "to": "S70",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S70",
+            "to": "S60",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S61",
+            "to": "S62",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S62",
+            "to": "S61",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S61",
+            "to": "S71",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S71",
+            "to": "S61",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S61",
+            "to": "S72",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S72",
+            "to": "S61",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S62",
+            "to": "S63",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S63",
+            "to": "S62",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S62",
+            "to": "S72",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S72",
+            "to": "S62",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S62",
+            "to": "S73",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S73",
+            "to": "S62",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S63",
+            "to": "S64",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S64",
+            "to": "S63",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S63",
+            "to": "S73",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S73",
+            "to": "S63",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S63",
+            "to": "S74",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S74",
+            "to": "S63",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S64",
+            "to": "S65",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S65",
+            "to": "S64",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S64",
+            "to": "S74",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S74",
+            "to": "S64",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S64",
+            "to": "S75",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S75",
+            "to": "S64",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S65",
+            "to": "S66",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S66",
+            "to": "S65",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S65",
+            "to": "S75",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S75",
+            "to": "S65",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S65",
+            "to": "S76",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S76",
+            "to": "S65",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S66",
+            "to": "S67",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S67",
+            "to": "S66",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S66",
+            "to": "S76",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S76",
+            "to": "S66",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S66",
+            "to": "S77",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S77",
+            "to": "S66",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S67",
+            "to": "S68",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S68",
+            "to": "S67",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S67",
+            "to": "S77",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S77",
+            "to": "S67",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S67",
+            "to": "S78",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S78",
+            "to": "S67",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S68",
+            "to": "S69",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S69",
+            "to": "S68",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S68",
+            "to": "S78",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S78",
+            "to": "S68",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S68",
+            "to": "S79",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S79",
+            "to": "S68",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S69",
+            "to": "S70",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S70",
+            "to": "S69",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S69",
+            "to": "S79",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S79",
+            "to": "S69",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S69",
+            "to": "S80",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S80",
+            "to": "S69",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S70",
+            "to": "S80",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S80",
+            "to": "S70",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S71",
+            "to": "S72",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S72",
+            "to": "S71",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S71",
+            "to": "S81",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S81",
+            "to": "S71",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S71",
+            "to": "S82",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S82",
+            "to": "S71",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S72",
+            "to": "S73",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S73",
+            "to": "S72",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S72",
+            "to": "S82",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S82",
+            "to": "S72",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S72",
+            "to": "S83",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S83",
+            "to": "S72",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S73",
+            "to": "S74",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S74",
+            "to": "S73",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S73",
+            "to": "S83",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S83",
+            "to": "S73",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S73",
+            "to": "S84",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S84",
+            "to": "S73",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S74",
+            "to": "S75",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S75",
+            "to": "S74",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S74",
+            "to": "S84",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S84",
+            "to": "S74",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S74",
+            "to": "S85",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S85",
+            "to": "S74",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S75",
+            "to": "S76",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S76",
+            "to": "S75",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S75",
+            "to": "S85",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S85",
+            "to": "S75",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S75",
+            "to": "S86",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S86",
+            "to": "S75",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S76",
+            "to": "S77",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S77",
+            "to": "S76",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S76",
+            "to": "S86",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S86",
+            "to": "S76",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S76",
+            "to": "S87",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S87",
+            "to": "S76",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S77",
+            "to": "S78",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S78",
+            "to": "S77",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S77",
+            "to": "S87",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S87",
+            "to": "S77",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S77",
+            "to": "S88",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S88",
+            "to": "S77",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S78",
+            "to": "S79",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S79",
+            "to": "S78",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S78",
+            "to": "S88",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S88",
+            "to": "S78",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S78",
+            "to": "S89",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S89",
+            "to": "S78",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S79",
+            "to": "S80",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S80",
+            "to": "S79",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S79",
+            "to": "S89",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S89",
+            "to": "S79",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S79",
+            "to": "S90",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S90",
+            "to": "S79",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S80",
+            "to": "S90",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S90",
+            "to": "S80",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S81",
+            "to": "S82",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S82",
+            "to": "S81",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S81",
+            "to": "S91",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S91",
+            "to": "S81",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S81",
+            "to": "S92",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S92",
+            "to": "S81",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S82",
+            "to": "S83",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S83",
+            "to": "S82",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S82",
+            "to": "S92",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S92",
+            "to": "S82",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S82",
+            "to": "S93",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S93",
+            "to": "S82",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S83",
+            "to": "S84",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S84",
+            "to": "S83",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S83",
+            "to": "S93",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S93",
+            "to": "S83",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S83",
+            "to": "S94",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S94",
+            "to": "S83",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S84",
+            "to": "S85",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S85",
+            "to": "S84",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S84",
+            "to": "S94",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S94",
+            "to": "S84",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S84",
+            "to": "S95",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S95",
+            "to": "S84",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S85",
+            "to": "S86",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S86",
+            "to": "S85",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S85",
+            "to": "S95",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S95",
+            "to": "S85",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S85",
+            "to": "S96",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S96",
+            "to": "S85",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S86",
+            "to": "S87",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S87",
+            "to": "S86",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S86",
+            "to": "S96",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S96",
+            "to": "S86",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S86",
+            "to": "S97",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S97",
+            "to": "S86",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S87",
+            "to": "S88",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S88",
+            "to": "S87",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S87",
+            "to": "S97",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S97",
+            "to": "S87",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S87",
+            "to": "S98",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S98",
+            "to": "S87",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S88",
+            "to": "S89",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S89",
+            "to": "S88",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S88",
+            "to": "S98",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S98",
+            "to": "S88",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S88",
+            "to": "S99",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S99",
+            "to": "S88",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S89",
+            "to": "S90",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S90",
+            "to": "S89",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S89",
+            "to": "S99",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S99",
+            "to": "S89",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S89",
+            "to": "S100",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S100",
+            "to": "S89",
+            "travel_time": 2.79,
+            "line_id": "green"
+        },
+        {
+            "from": "S90",
+            "to": "S100",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S100",
+            "to": "S90",
+            "travel_time": 2.22,
+            "line_id": "blue"
+        },
+        {
+            "from": "S91",
+            "to": "S92",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S92",
+            "to": "S91",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S92",
+            "to": "S93",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S93",
+            "to": "S92",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S93",
+            "to": "S94",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S94",
+            "to": "S93",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S94",
+            "to": "S95",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S95",
+            "to": "S94",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S95",
+            "to": "S96",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S96",
+            "to": "S95",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S96",
+            "to": "S97",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S97",
+            "to": "S96",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S97",
+            "to": "S98",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S98",
+            "to": "S97",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S98",
+            "to": "S99",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S99",
+            "to": "S98",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S99",
+            "to": "S100",
+            "travel_time": 1.68,
+            "line_id": "red"
+        },
+        {
+            "from": "S100",
+            "to": "S99",
+            "travel_time": 1.68,
+            "line_id": "red"
+        }
+    ]
+}
