@@ -6,7 +6,7 @@ class PriorityQueue:
         self.stores_ids={}#stores  stop_id
 
 
-    def insert_item(self,distance,stop_id):#add new value and bubble it
+    def push(self,distance,stop_id):#add new value and bubble it
         """Add a new value and bubble it up to maintain heap order."""
         self.heap.append([distance, stop_id])
         last_ind= len(self.heap) -1
@@ -14,7 +14,7 @@ class PriorityQueue:
         self._insertion_init_up(last_ind)
 
 
-    def extract_min(self):
+    def pop_min(self):
         """Remove and return the minimum element from the priority queue."""
         if not self.heap:
             return None #test 2
