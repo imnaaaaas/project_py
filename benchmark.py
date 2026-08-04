@@ -1,22 +1,23 @@
 from transit.network import Network
 from utils.logger import logger
 from utils.benchmark_decorator import benchmark
+from typing import Any
 
 
     
 @benchmark
-def run_dijkstra(network, start, end):
+def run_dijkstra(network : Network , start: str , end: str ) ->  list[str]:
     return network.shortest_dijikstra(start, end)
 
 
 @benchmark
-def run_astar(network, start, end):
+def run_astar(network : Network , start: str , end: str ) ->  list[str]:
     return network.shortest_path_astar(start, end)
 
 
 
 
-def benchmarks_for(filename, routes):
+def benchmarks_for(filename: str, routes: list[tuple[str, str]]) -> None:
     network=Network(filename)
     results_dijikstra=[]
     results_astar=[]
@@ -38,7 +39,8 @@ def benchmarks_for(filename, routes):
     logger.info("")
 
 
-def total_results(results):
+def total_results(results: list[dict[str, Any]]) -> tuple[float, int]:
+
     total_time=0
     total_node=0
     for result in results:
@@ -47,7 +49,7 @@ def total_results(results):
     return total_time, total_node
 
 
-benchmarks_for("network_jsons/example_network_1000.json", [("S1", "S2"), ("S1", "S50"), ("S1", "S99")])
+benchmarks_for("network_jsons/example_network_100.json", [("S1", "S2"), ("S1", "S50"), ("S1", "S99")])
 benchmarks_for("network_jsons/example_network_1000.json", [("S1", "S2"), ("S1", "S500"), ("S1", "S1024")])
 benchmarks_for("network_jsons/example_network_10000.json", [("S1", "S2"), ("S1", "S5000"), ("S1", "S10000")])
 

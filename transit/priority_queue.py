@@ -1,20 +1,20 @@
 
 
 class PriorityQueue:
-    def __init__(self):
-        self.heap=[]
-        self.stores_ids={}#stores  stop_id
+    def __init__(self) -> None:
+        self.heap : list[list[float | str]] = []
+        self.stores_ids: dict[str, int] = {} #stores  stop_id
 
 
-    def push(self,distance,stop_id):#add new value and bubble it
+    def push(self,distance: float , stop_id: str) -> None:#add new value and bubble it
         """Add a new value and bubble it up to maintain heap order."""
         self.heap.append([distance, stop_id])
         last_ind= len(self.heap) -1
         self.stores_ids[stop_id] = last_ind #new added index
-        self._insertion_init_up(last_ind)
+        self._move_node_up(last_ind)
 
 
-    def pop_min(self):
+    def pop_min(self) -> list[float | str] | None:
         """Remove and return the minimum element from the priority queue."""
         if not self.heap:
             return None #test 2
@@ -27,11 +27,11 @@ class PriorityQueue:
         del self.stores_ids[min_value[1]] #del id from that pair
         self.heap[0] = self.heap.pop() #last becomes first
         self.stores_ids[self.heap[0][1]]=0 #first id =0
-        self._extract_sift_down(0) #restore pushing 0
+        self._move_node_down(0) #restore pushing 0
         return min_value #return min
             
        
-    def decrease_key(self,stop_id,new_val):#use hashmap
+    def decrease_key(self,stop_id: str , new_val: float) -> None:#use hashmap
         """Decrease the priority value of a given stop_id."""
         if stop_id not in self.stores_ids:
             raise KeyError(f"{stop_id} not found") #test 6
@@ -40,10 +40,10 @@ class PriorityQueue:
         if new_val >= current_value:
             return 
         self.heap[ind] = [new_val, stop_id]
-        self._insertion_init_up(ind)
+        self._move_node_up(ind)
 
 
-    def _extract_sift_down(self,ind):
+    def _move_node_down(self,ind: int) -> None:
         """Restore heap property by shifting an element down."""
         length = len(self.heap)
         while True:
@@ -64,7 +64,7 @@ class PriorityQueue:
               else:
                   break
          
-    def _insertion_init_up(self,ind):#for minheap parent<son and swap
+    def _move_node_up(self,ind: int) -> None:#for minheap parent<son and swap
         """Restore heap property by shifting an element up."""
         while ind > 0:
             parent_ind =(ind - 1) // 2

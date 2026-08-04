@@ -4,12 +4,12 @@ import math
 
 # dijikstra
 class Router:
-    def __init__(self, graph):
+    def __init__(self, graph) -> None:
         self.graph = graph  # referencee of graph
         self.max_speed = self._average_max_speed()  # faster way roughly
         
 
-    def shortest_dijikstra(self, start, end):
+    def shortest_dijikstra(self, start: str ,  end: str) -> list[str]:
         """Find the shortest path between start and end using Dijkstra's algorithm."""
         dist = {start: 0}
         prev = {}  # hasnot added were we come from
@@ -17,10 +17,10 @@ class Router:
         self.visited_nodes = 0
 
         self.pq = PriorityQueue()
-        self.pq.insert_item(0, start) 
+        self.pq.push(0, start) 
 
         while self.pq.heap:  # while heap isnot empty
-            weight, node = self.pq.extract_min()  # current unused cheapest
+            weight, node = self.pq.pop_min()  # current unused cheapest
             if node in visited:
                 continue
             visited.add(node)
@@ -39,7 +39,7 @@ class Router:
                     if edge.to_stop in self.pq.stores_ids:
                         self.pq.decrease_key(edge.to_stop, new_node_cost)
                     else:
-                        self.pq.insert_item(new_node_cost, edge.to_stop)
+                        self.pq.push(new_node_cost, edge.to_stop)
 
         if end not in dist and start != end:
             return []
@@ -55,17 +55,17 @@ class Router:
 
         return path
 
-    def shortest_path_astar(self, start, end):
+    def shortest_path_astar(self, start: str , end: str) -> list[str]:
         """Find the shortest path between start and end using the A* algorithm."""
         dist = {start: 0}  # G(V) real cost 
         prev = {}  # hasnot added were we come from
         visited = set()  # shortest distance never changed
         self.visited_nodes = 0
         self.pq = PriorityQueue()
-        self.pq.insert_item(0, start) 
+        self.pq.push(0, start) 
 
         while self.pq.heap:  # while heap isnot empty
-            weight, node = self.pq.extract_min()  # current unused cheapest
+            weight, node = self.pq.pop_min()  # current unused cheapest
             if node in visited:
                 continue
             visited.add(node)
@@ -92,7 +92,7 @@ class Router:
                     if edge.to_stop in self.pq.stores_ids:
                         self.pq.decrease_key(edge.to_stop, priority)
                     else:
-                        self.pq.insert_item(priority, edge.to_stop)
+                        self.pq.push(priority, edge.to_stop)
 
         if end not in dist and start != end:
             return []
@@ -108,8 +108,7 @@ class Router:
         return path
 
 
-
-    def shortest_path_with_transfers(self, start, end, max_transfers=0):
+    def shortest_path_with_transfers(self, start: str , end: str , max_transfers: int = 0) -> list[str]:
         """Find the shortest path considering a maximum allowed number of transfers."""
         dist = {}
         prev = {}  # hasnot added were we come from
@@ -119,10 +118,10 @@ class Router:
         dist[start_node] = 0
 
         self.pq = PriorityQueue()
-        self.pq.insert_item(0, start_node)  # [0, ("N1", None, 0)].
+        self.pq.push(0, start_node)  # [0, ("N1", None, 0)].
 
         while self.pq.heap:  # while heap isnot empty
-            weight, node = self.pq.extract_min()  # current unused cheapest   
+            weight, node = self.pq.pop_min()  # current unused cheapest   
             if node in visited:
                 continue
             visited.add(node)
@@ -149,7 +148,7 @@ class Router:
                     if edge.to_stop in self.pq.stores_ids:
                         self.pq.decrease_key(new_node, new_node_cost)
                     else:
-                        self.pq.insert_item(new_node_cost, new_node)
+                        self.pq.push(new_node_cost, new_node)
 
         # get details fromtuple
         best_final_node = None
@@ -173,7 +172,7 @@ class Router:
         return path
 
 
-    def distance_between_points(self, lat1, lon1, lat2, lon2):
+    def distance_between_points(self, lat1: float , lon1: float , lat2: float , lon2: float ) -> float:
            """Returns distance between two point in kilometrs."""
            R = 6371 
            lat1_rad = math.radians(lat1)
@@ -189,7 +188,7 @@ class Router:
            return R * c
 
     
-    def _average_max_speed(self):  
+    def _average_max_speed(self) -> float:  
         """Calculate max speed across graph edges."""
         # N1→N2, N2→N3, C→S1 run when router is created calcualate every edge lenght and gets biggest, fixed max_speed
         max_speed = 0

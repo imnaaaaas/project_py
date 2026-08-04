@@ -2,7 +2,7 @@ import json
 import math 
 
 
-def generate_network(size,filename):
+def generate_network(size: int , filename: str) -> None:
     stops = []
     edges = []
     start_lat=40.70
@@ -10,7 +10,7 @@ def generate_network(size,filename):
     step=0.01
     stop_number=1
 
-    def distance_between_points(lat1,lon1, lat2,lon2):# returns distance between two point in kilometrs
+    def distance_between_points(lat1: float , lon1: float , lat2: float ,lon2: float) -> float:# returns distance between two point in kilometrs
         R = 6371 
         lat1_rad = math.radians(lat1)
         lon1_rad = math.radians(lon1)
@@ -28,10 +28,10 @@ def generate_network(size,filename):
             latitude = round(start_lat + row*step,2)
             longitude = round(start_lon + column*step,2)
             stop={
-                "id": f"S{stop_number}",
-                "name": f"Stop {stop_number}",
-                "lat": latitude,
-                "lon": longitude
+                "id": f"S{stop_number}", #str
+                "name": f"Stop {stop_number}", #str
+                "lat": latitude, #flotat
+                "lon": longitude #float
             }
             stops.append(stop)
             stop_number+=1
@@ -70,7 +70,7 @@ def generate_network(size,filename):
                     }
                 edges.append(edge)
 
-            #blud
+            #blue
             if row <size-1:
                 below_id = (row+1)*size+column+1
                 distance = distance_between_points(
