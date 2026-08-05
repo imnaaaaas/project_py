@@ -3,8 +3,10 @@ import pytest
 from transit.graph import load_graph_from_json
 from transit.router import Router
 
-FIXTURE = pathlib.Path(__file__).parent / "example_network.json"
-FIXTURE_EXTENDED = pathlib.Path(__file__).parent / "example_network2.json"
+FIXTURE = pathlib.Path(__file__).parent.parent / "network_jsons/example_network.json"
+FIXTURE_EXTENDED = pathlib.Path(__file__).parent.parent / "network_jsons/example_network2.json"
+
+
 
 @pytest.fixture
 def router() -> Router:
@@ -44,3 +46,7 @@ def test_transfers_same_start_and_end(router):
 def test_transfers_zero_on_single_line_route_needs_no_transfer(router):
     path = router.shortest_path_with_transfers("N1", "S2", max_transfers=0)
     assert path == ["N1","N2","N3","C","S1","S2"]
+
+
+
+

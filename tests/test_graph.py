@@ -13,8 +13,7 @@ import pytest
 
 from transit.graph import Edge, Graph, Stop, load_graph_from_json
 
-FIXTURE = pathlib.Path(__file__).parent / "example_network.json"
-
+FIXTURE = pathlib.Path(__file__).parent.parent / "network_jsons/example_network.json"
 
 @pytest.fixture
 def graph() -> Graph:

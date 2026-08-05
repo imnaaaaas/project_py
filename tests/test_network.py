@@ -5,25 +5,25 @@ import pytest
 
 
 def test_shortest_dijikstra_matches_router():
-    graph = load_graph_from_json("example_network.json")
+    graph = load_graph_from_json("network_jsons/example_network.json")
     router = Router(graph)
-    network = Network("example_network.json")
+    network = Network("network_jsons/example_network.json")
 
     assert router.shortest_dijikstra("N1", "S2") == network.shortest_dijikstra("N1", "S2")
 
 
 def test_shortest_path_astar_matches_router():
-    graph = load_graph_from_json("example_network.json")
+    graph = load_graph_from_json("network_jsons/example_network.json")
     router = Router(graph)
-    network = Network("example_network.json")
+    network = Network("network_jsons/example_network.json")
 
     assert router.shortest_path_astar("N1", "S2") == network.shortest_path_astar("N1", "S2")
 
 
 def test_shortest_path_with_transfers_matches_router():
-    graph = load_graph_from_json("example_network.json")
+    graph = load_graph_from_json("network_jsons/example_network.json")
     router = Router(graph)
-    network = Network("example_network.json")
+    network = Network("network_jsons/example_network.json")
     
     max_transfers = 2
     assert router.shortest_path_with_transfers("N1", "S2", max_transfers) == \

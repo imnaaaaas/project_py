@@ -4,7 +4,8 @@ import pytest
 from transit.graph import load_graph_from_json
 from transit.router import Router
 
-FIXTURE = pathlib.Path(__file__).parent / "example_network.json"
+
+FIXTURE = pathlib.Path(__file__).parent.parent / "network_jsons/example_network.json"
 
 @pytest.fixture
 def router() -> Router:
@@ -42,3 +43,10 @@ def test_astar_heuristic_is_admissible(router):# h(v) ≤ real cost to target
             continue
 
         assert h_val <= true_dist
+
+def test_A_star_logs_warning_when_unreachable(router, caplog):
+    with caplog.at_level("WARNING"):
+        path = router.shortest_dijikstra("N1", "SomeUnreachableStop")
+    
+    assert path == []
+    assert "No route found" in caplog.text
