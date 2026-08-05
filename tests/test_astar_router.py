@@ -36,7 +36,7 @@ def test_astar_heuristic_is_admissible(router):# h(v) ≤ real cost to target
         hav = router.distance_between_points(stop.lat, stop.lon, end_cord.lat, end_cord.lon)
         h_val = hav / router.max_speed
 
-        router.shortest_dijikstra(stop.id, end)
+        router.shortest_path(stop.id, end)
         true_dist = router.last_distance
 
         if true_dist is None:
@@ -46,7 +46,7 @@ def test_astar_heuristic_is_admissible(router):# h(v) ≤ real cost to target
 
 def test_A_star_logs_warning_when_unreachable(router, caplog):
     with caplog.at_level("WARNING"):
-        path = router.shortest_dijikstra("N1", "SomeUnreachableStop")
+        path = router.shortest_path("N1", "SomeUnreachableStop")
     
     assert path == []
     assert "No route found" in caplog.text

@@ -4,12 +4,12 @@ from transit.network import Network
 import pytest
 
 
-def test_shortest_dijikstra_matches_router():
+def test_shortest_path_matches_router():
     graph = load_graph_from_json("network_jsons/example_network.json")
     router = Router(graph)
     network = Network("network_jsons/example_network.json")
 
-    assert router.shortest_dijikstra("N1", "S2") == network.shortest_dijikstra("N1", "S2")
+    assert router.shortest_path("N1", "S2") == network.shortest_path("N1", "S2")
 
 
 def test_shortest_path_astar_matches_router():

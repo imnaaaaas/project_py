@@ -34,7 +34,7 @@ def test_transfers_one_on_extended_network_finds_faster_route(router_extended):
     assert path == ["N1", "N2", "N3", "C", "E1", "E2"]
 
 def test_transfers_unlimited_matches_plain_dijkstra_result(router_extended):
-    dijkstra_path = router_extended.shortest_dijikstra("N1", "E2")
+    dijkstra_path = router_extended.shortest_path("N1", "E2")
     transfers_path = router_extended.shortest_path_with_transfers("N1", "E2", max_transfers=10)
     assert dijkstra_path == transfers_path
 
