@@ -7,8 +7,8 @@ class Network:
         self.graph = load_graph_from_json(json_path)
         self.router = Router(self.graph)
 
-    def shortest_dijikstra(self, start: str , end: str) -> list[str]:
-        return self.router.shortest_dijikstra(start, end)
+    def shortest_path(self, start: str , end: str) -> list[str]:
+        return self.router.shortest_path(start, end)
 
     def shortest_path_astar(self, start: str , end: str) -> list[str]:
         return self.router.shortest_path_astar(start, end)

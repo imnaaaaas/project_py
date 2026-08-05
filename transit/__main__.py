@@ -21,7 +21,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#ptyhon3 -m transit N1 E2
+#python3 -m transit route N1 E2
 
 
 #python3 -m transit --network network_jsons/example_network_100.json route S1 S78

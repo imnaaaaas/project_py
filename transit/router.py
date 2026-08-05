@@ -11,7 +11,7 @@ class Router:
         self.max_speed = self._average_max_speed()  # faster way roughly
         
 
-    def shortest_dijikstra(self, start: str ,  end: str) -> list[str]:
+    def shortest_path(self, start: str ,  end: str) -> list[str]:
         """Find the shortest path between start and end using Dijkstra's algorithm."""
         dist = {start: 0}
         prev = {}  # hasnot added were we come from
