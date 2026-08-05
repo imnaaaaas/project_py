@@ -6,7 +6,6 @@ class PriorityQueue:
         self.stores_ids: dict[str, int] = {} #stores  stop_id
 
 
-    #_index gavasworo
 
 
 

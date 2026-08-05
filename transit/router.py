@@ -77,7 +77,8 @@ class Router:
                 break
 
             for edge in self.graph.neighbors(node):
-                new_node_cost = weight + edge.travel_time  # cost to reach edge.to_stop
+                # cost to reach edge.to_stop
+                new_node_cost = dist[node] + edge.travel_time 
             
                 if edge.to_stop not in dist or new_node_cost < dist[edge.to_stop]:  # never record or cheaper
                     dist[edge.to_stop] = new_node_cost  # save better 
@@ -147,9 +148,9 @@ class Router:
                 if new_node not in dist or new_node_cost < dist[new_node]:  # never record or cheaper
                     dist[new_node] = new_node_cost  # save better 
                     prev[new_node] = node  # where we came from
-                    #
+                    
 
-                    if edge.to_stop in self.pq.stores_ids:
+                    if new_node in self.pq.stores_ids:
                         self.pq.decrease_key(new_node, new_node_cost)
                     else:
                         self.pq.push(new_node_cost, new_node)
@@ -205,5 +206,8 @@ class Router:
                 if max_speed < speed:
                     max_speed = speed  # takes bigest speed
 
-        logger.debug(f"Computed max_speed = {max_speed:.3f} km/min from {len(list(self.graph.all_stops()))} stops")#
+        if max_speed == 0:
+            max_speed = 1.0
+
+        logger.debug(f"Computed max_speed = {max_speed:.3f} km/min ")
         return max_speed
