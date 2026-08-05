@@ -1,6 +1,8 @@
 from transit.graph import Graph, Edge
 from transit.priority_queue import PriorityQueue
 import math
+from utils.logger import logger
+
 
 # dijikstra
 class Router:
@@ -42,6 +44,7 @@ class Router:
                         self.pq.push(new_node_cost, edge.to_stop)
 
         if end not in dist and start != end:
+            logger.warning(f"No route found from {start} to {end}") # no route found
             return []
 
         self.last_distance = dist.get(end, None)  # get real weights for test
@@ -95,6 +98,7 @@ class Router:
                         self.pq.push(priority, edge.to_stop)
 
         if end not in dist and start != end:
+            logger.warning(f"No route found from {start} to {end}")
             return []
  
 
@@ -160,6 +164,7 @@ class Router:
                     best_final_node = node
 
         if best_final_node is None:
+            logger.warning(f"No route from {start} to {end} within {max_transfers} transfer(s)") #
             return []
 
         current = best_final_node
@@ -199,4 +204,6 @@ class Router:
                 speed = distance / edge.travel_time  # km/min
                 if max_speed < speed:
                     max_speed = speed  # takes bigest speed
+
+        logger.debug(f"Computed max_speed = {max_speed:.3f} km/min from {len(list(self.graph.all_stops()))} stops")#
         return max_speed
