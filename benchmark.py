@@ -7,7 +7,7 @@ from typing import Any
     
 @benchmark
 def run_dijkstra(network : Network , start: str , end: str ) ->  list[str]:
-    return network.shortest_dijikstra(start, end)
+    return network.shortest_path(start, end)
 
 
 @benchmark
@@ -62,7 +62,7 @@ benchmarks_for("network_jsons/example_network_10000.json", [("S1", "S2"), ("S1",
 
     for start,end in routes:
         start_time=time.perf_counter()
-        network.shortest_dijikstra(start,end)
+        network.shortest_path(start,end)
         end_time=time.perf_counter()
         time_taken=end_time-start_time
         node=network.router.visited_nodes
