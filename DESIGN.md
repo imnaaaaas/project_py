@@ -16,7 +16,7 @@
 
 ### PriorityQueue
     PriorityQueue - using data structure Binary min-heap with decrease_key as priority queue.
-    Code manages add item, extract minimum item. Make correct Binary min-heap logic.
+    Code manages add item, extract minimum item. Make correct Binary min-heap logic.PriorityQueue is frontier for Dijkstra,A* which are pathfinding algorithms.When Dijkstra works on data PriorityQueueacts as the core engine that tells  which station to visit next.
 
 ### Router
     Router - owns Dijkstra, A*, transfer-constrained DP.
@@ -43,9 +43,41 @@
 
     Router - Dijkstra/A* time - O((V+E) log V) / E*O(logV)   space- O(V)
             max_tranfer  time - O((V×K + E×K) log(V×K)) k=max_transfer+1 (max transfer is calculated on every iteration)
-        
+    
+    Benchmark - time - O(R \(V + N) \log V) (nodes/edge/route) space O(Nmax + Emax) 
     
 
+
+
+
+## 4. Benchmarks
+
+2026-08-04 18:16:17,026 - INFO - -----network_jsons/example_network_100.json-----
+2026-08-04 18:16:17,026 - INFO - dijkstra: 0.000590s 180 nodes
+2026-08-04 18:16:17,026 - INFO - astar: 0.000572s 108 nodes
+2026-08-04 18:16:17,026 - INFO -
+2026-08-04 18:16:17,053 - INFO - -----network_jsons/example_network_1000.json-----
+2026-08-04 18:16:17,053 - INFO - dijkstra: 0.005484s 1493 nodes
+2026-08-04 18:16:17,053 - INFO - astar: 0.003447s 798 nodes
+2026-08-04 18:16:17,053 - INFO -
+2026-08-04 18:16:17,388 - INFO - -----network_jsons/example_network_10000.json-----
+2026-08-04 18:16:17,388 - INFO - dijkstra: 0.089882s 18456 nodes
+2026-08-04 18:16:17,388 - INFO - astar: 0.062870s 11070 nodes
+
+The test results shows that A* is always faster and check less nodes than Dijikstra on every network size.
+This shows that heuristic works correctly in real world,saving actual time and computer.
+
+
+## 5. A* Heuristic: Admissibility
+
+write heuristic must be less than true cost to goal
+
+A* heuristic h(v) is admissible if it never overestimates the true cost to reach the goal from any node. 
+h(v)<true_cost(v,goal)
+
+Program calculating straight-line distance on map using GPS coordinats(lat,lon), and divides it by max possible speed in network. Straight line is always shortests possible distance between two points, and max speed gives fastersts possible time,
+our guess is always optimistic. If our guess was too high than real cost, A* think that good path is expensive and skip it by mistake.In this way A* would give a wrong, longer route instead of actual shortest path.
+In test (test_astar_heuristic_is_admissible) its calculating straight-line distance for every node to end, and then compare to their real cost to prove that heuristic is Admissibility.
 
 
 
