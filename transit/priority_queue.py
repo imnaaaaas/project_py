@@ -6,12 +6,16 @@ class PriorityQueue:
         self.stores_ids: dict[str, int] = {} #stores  stop_id
 
 
+    #_index gavasworo
+
+
+
     def push(self,distance: float , stop_id: str) -> None:#add new value and bubble it
         """Add a new value and bubble it up to maintain heap order."""
         self.heap.append([distance, stop_id])
-        last_ind= len(self.heap) -1
-        self.stores_ids[stop_id] = last_ind #new added index
-        self._move_node_up(last_ind)
+        last_index= len(self.heap) -1
+        self.stores_ids[stop_id] = last_index #new added index
+        self._move_node_up(last_index)
 
 
     def pop_min(self) -> list[float | str] | None:
@@ -49,7 +53,7 @@ class PriorityQueue:
         while True:
               smallest = ind
               right_index = 2 * ind + 2
-              left_index = 2 * ind + 1
+              left_index= 2 * ind + 1
               if left_index < length and self.heap[left_index] < self.heap[smallest]:
                   smallest = left_index
               if right_index < length and self.heap[right_index] < self.heap[smallest]:
@@ -67,14 +71,14 @@ class PriorityQueue:
     def _move_node_up(self,ind: int) -> None:#for minheap parent<son and swap
         """Restore heap property by shifting an element up."""
         while ind > 0:
-            parent_ind =(ind - 1) // 2
+            parent_index =(ind - 1) // 2
             id_child = self.heap[ind][1]#chils id [priority, id]
-            id_parent = self.heap[parent_ind][1]#parents id 
-            if self.heap[ind] < self.heap[parent_ind]:
-                self.heap[ind], self.heap[parent_ind] = self.heap[parent_ind], self.heap[ind]
-                self.stores_ids[id_child] = parent_ind #make them correct index
+            id_parent = self.heap[parent_index][1]#parents id 
+            if self.heap[ind] < self.heap[parent_index]:
+                self.heap[ind], self.heap[parent_index] = self.heap[parent_index], self.heap[ind]
+                self.stores_ids[id_child] = parent_index #make them correct index
                 self.stores_ids[id_parent] = ind
-                ind=parent_ind #after swap for loop condition
+                ind=parent_index #after swap for loop condition
             else:
                 break
     

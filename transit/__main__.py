@@ -5,7 +5,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--network", default="example_network.json")#json load
+    parser.add_argument("--network", default="network_jsons/example_network.json")#json load
     subparsers = parser.add_subparsers(dest="command")
     route_parser = subparsers.add_parser("route")
     route_parser.add_argument("start")
@@ -24,7 +24,7 @@ if __name__ == "__main__":
 #ptyhon3 -m transit N1 E2
 
 
-#python3 -m transit --network example_network_100.json route S1 S78
+#python3 -m transit --network network_jsons/example_network_100.json route S1 S78
 
 
 """for max transfers
