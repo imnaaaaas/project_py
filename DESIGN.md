@@ -52,17 +52,17 @@
 
 ## 4. Benchmarks
 
-2026-08-04 18:16:17,026 - INFO - -----network_jsons/example_network_100.json-----
-2026-08-04 18:16:17,026 - INFO - dijkstra: 0.000590s 180 nodes
-2026-08-04 18:16:17,026 - INFO - astar: 0.000572s 108 nodes
-2026-08-04 18:16:17,026 - INFO -
-2026-08-04 18:16:17,053 - INFO - -----network_jsons/example_network_1000.json-----
-2026-08-04 18:16:17,053 - INFO - dijkstra: 0.005484s 1493 nodes
-2026-08-04 18:16:17,053 - INFO - astar: 0.003447s 798 nodes
-2026-08-04 18:16:17,053 - INFO -
-2026-08-04 18:16:17,388 - INFO - -----network_jsons/example_network_10000.json-----
-2026-08-04 18:16:17,388 - INFO - dijkstra: 0.089882s 18456 nodes
-2026-08-04 18:16:17,388 - INFO - astar: 0.062870s 11070 nodes
+2026-08-06 01:30:44,253 - INFO - -----network_jsons/example_network_100.json-----
+2026-08-06 01:30:44,253 - INFO - dijkstra: 0.000566s 180 nodes
+2026-08-06 01:30:44,253 - INFO - astar: 0.000275s 52 nodes
+2026-08-06 01:30:44,253 - INFO - 
+2026-08-06 01:30:44,285 - INFO - -----network_jsons/example_network_1000.json-----
+2026-08-06 01:30:44,286 - INFO - dijkstra: 0.008380s 1493 nodes
+2026-08-06 01:30:44,286 - INFO - astar: 0.001109s 141 nodes
+2026-08-06 01:30:44,286 - INFO - 
+2026-08-06 01:30:44,607 - INFO - -----network_jsons/example_network_10000.json-----
+2026-08-06 01:30:44,608 - INFO - dijkstra: 0.070639s 18456 nodes
+2026-08-06 01:30:44,608 - INFO - astar: 0.015874s 3161 nodes
 
 The test results shows that A* is always faster and check less nodes than Dijikstra on every network size.
 This shows that heuristic works correctly in real world,saving actual time and computer.
